@@ -1,10 +1,10 @@
-# @beaker/library-tools
+# dbrowser-library-tools
 
-Utility library to manage Beaker's library of dats.
+Utility library to manage DBrowserX-'s library of dats.
 
 ## Library folder and library.json
 
-Beaker manages a `/library` folder in the user's private hyperdrive that contains mounts to all saved dats. The archives are sorted into folders according to their "Primary Type" (see `getPrimaryType()`). An example folder hierarchy:
+DBrowserX- manages a `/library` folder in the user's private dwebfs that contains mounts to all saved dats. The archives are sorted into folders according to their "Primary Type" (see `getPrimaryType()`). An example folder hierarchy:
 
 ```
 /library/modules
@@ -19,7 +19,7 @@ The `library.json` file is the primary record of the "saved dats." It lists save
 
 ```json
 {
-  "type": "beakerbrowser.com/library",
+  "type": "dbrowser.com/library",
   "dats": [
     {
       "key": "9892414902579ba93ae62e63d5041b69b137f2aa9e86a4e2bc1bcef70ab6d569",
